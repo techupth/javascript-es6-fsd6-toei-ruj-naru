@@ -11,4 +11,6 @@ let additionalOrders = [
 
 // Start coding here
 
+const newOrders = [...orders.concat(...additionalOrders)];
+
 console.log(newOrders);
