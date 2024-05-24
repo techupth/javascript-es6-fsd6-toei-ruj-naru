@@ -1,4 +1,9 @@
-function sum() {
+function sum(...num) {
+  const total = num.reduce((acc, cur) => {
+    return acc + cur;
+  }, 0);
+
+  return total;
   // Start coding here !
 }
 
